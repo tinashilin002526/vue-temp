@@ -1,4 +1,4 @@
-# vue-temp
+# <%= projectName %>
 
 ## Project setup
 ```
