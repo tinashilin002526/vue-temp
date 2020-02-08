@@ -7,7 +7,9 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+<% if(useVuex){ %>
+import store from './store'
+<% } %>
 export default {
   name: 'app',
   components: {
