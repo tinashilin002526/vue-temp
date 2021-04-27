@@ -1,6 +1,6 @@
 {
-    "name": "<%= projectName %>",
-    "version": "<%= version %>",
+    "name": "<%= options %>",
+    "version": "0.0.1",
     "private": true,
     "scripts": {
         "serve": "vue-cli-service serve",
@@ -9,14 +9,14 @@
     },
     "dependencies": {
         "core-js": "^3.4.4",
-        "vue": "^2.6.10"<% if(useVuex){%>,
-        "vuex": "^3.1.1"<% } %><% if(useVueRouter){%>,
-        "vue-router": "^3.1.5"<% } %><% if(UIfrag==='eleUI'){%>,
-        "element-ui": "^2.12.0"<% } %><% if(cssPrep==='less'){%>,
+        "vue": "^2.6.10",
+        "vuex": "^3.1.1",
+        "vue-router": "^3.1.5",
+        "element-ui": "^2.12.0",
         "less": "^3.10.3",
-        "less-loader": "^5.0.0"<% } %><% if(cssPrep==='sass'){%>,
+        "less-loader": "^5.0.0",
         "sass": "^3.10.3",
-        "sass-loader": "^5.0.0"<% } %>
+        "sass-loader": "^5.0.0"
     },
     "devDependencies": {
         "@vue/cli-plugin-babel": "^4.1.0",
